@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B71EAC19584BEA0010D0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B71EAB19584BEA0010D0AC /* Foundation.framework */; };
+		C7B71EAE19584BEA0010D0AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B71EAD19584BEA0010D0AC /* CoreGraphics.framework */; };
+		C7B71EB019584BEA0010D0AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B71EAF19584BEA0010D0AC /* UIKit.framework */; };
+		C7B71EB619584BEA0010D0AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B71EB419584BEA0010D0AC /* InfoPlist.strings */; };
+		C7B71EB819584BEA0010D0AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B71EB719584BEA0010D0AC /* main.m */; };
+		C7B71EBC19584BEA0010D0AC /* CZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B71EBB19584BEA0010D0AC /* CZAppDelegate.m */; };
+		C7B71EBF19584BEA0010D0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7B71EBD19584BEA0010D0AC /* Main.storyboard */; };
+		C7B71EC219584BEA0010D0AC /* CZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B71EC119584BEA0010D0AC /* CZViewController.m */; };
+		C7B71EC419584BEA0010D0AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B71EC319584BEA0010D0AC /* Images.xcassets */; };
+		C7B71ECB19584BEA0010D0AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B71ECA19584BEA0010D0AC /* XCTest.framework */; };
+		C7B71ECC19584BEA0010D0AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B71EAB19584BEA0010D0AC /* Foundation.framework */; };
+		C7B71ECD19584BEA0010D0AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B71EAF19584BEA0010D0AC /* UIKit.framework */; };
+		C7B71ED519584BEA0010D0AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B71ED319584BEA0010D0AC /* InfoPlist.strings */; };
+		C7B71ED719584BEA0010D0AC /* _1_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B71ED619584BEA0010D0AC /* _1_____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7B71ECE19584BEA0010D0AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B71EA019584BEA0010D0AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B71EA719584BEA0010D0AC;
+			remoteInfo = "01-蓝牙传输";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7B71EA819584BEA0010D0AC /* 01-蓝牙传输.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-蓝牙传输.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B71EAB19584BEA0010D0AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7B71EAD19584BEA0010D0AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7B71EAF19584BEA0010D0AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7B71EB319584BEA0010D0AC /* 01-蓝牙传输-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-蓝牙传输-Info.plist"; sourceTree = "<group>"; };
+		C7B71EB519584BEA0010D0AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7B71EB719584BEA0010D0AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7B71EB919584BEA0010D0AC /* 01-蓝牙传输-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "01-蓝牙传输-Prefix.pch"; sourceTree = "<group>"; };
+		C7B71EBA19584BEA0010D0AC /* CZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZAppDelegate.h; sourceTree = "<group>"; };
+		C7B71EBB19584BEA0010D0AC /* CZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZAppDelegate.m; sourceTree = "<group>"; };
+		C7B71EBE19584BEA0010D0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7B71EC019584BEA0010D0AC /* CZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZViewController.h; sourceTree = "<group>"; };
+		C7B71EC119584BEA0010D0AC /* CZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZViewController.m; sourceTree = "<group>"; };
+		C7B71EC319584BEA0010D0AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7B71EC919584BEA0010D0AC /* 01-蓝牙传输Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-蓝牙传输Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B71ECA19584BEA0010D0AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C7B71ED219584BEA0010D0AC /* 01-蓝牙传输Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-蓝牙传输Tests-Info.plist"; sourceTree = "<group>"; };
+		C7B71ED419584BEA0010D0AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7B71ED619584BEA0010D0AC /* _1_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B71EA519584BEA0010D0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B71EAE19584BEA0010D0AC /* CoreGraphics.framework in Frameworks */,
+				C7B71EB019584BEA0010D0AC /* UIKit.framework in Frameworks */,
+				C7B71EAC19584BEA0010D0AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B71EC619584BEA0010D0AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B71ECB19584BEA0010D0AC /* XCTest.framework in Frameworks */,
+				C7B71ECD19584BEA0010D0AC /* UIKit.framework in Frameworks */,
+				C7B71ECC19584BEA0010D0AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B71E9F19584BEA0010D0AC = {
+			isa = PBXGroup;
+			children = (
+				C7B71EB119584BEA0010D0AC /* 01-蓝牙传输 */,
+				C7B71ED019584BEA0010D0AC /* 01-蓝牙传输Tests */,
+				C7B71EAA19584BEA0010D0AC /* Frameworks */,
+				C7B71EA919584BEA0010D0AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B71EA919584BEA0010D0AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B71EA819584BEA0010D0AC /* 01-蓝牙传输.app */,
+				C7B71EC919584BEA0010D0AC /* 01-蓝牙传输Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B71EAA19584BEA0010D0AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B71EAB19584BEA0010D0AC /* Foundation.framework */,
+				C7B71EAD19584BEA0010D0AC /* CoreGraphics.framework */,
+				C7B71EAF19584BEA0010D0AC /* UIKit.framework */,
+				C7B71ECA19584BEA0010D0AC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B71EB119584BEA0010D0AC /* 01-蓝牙传输 */ = {
+			isa = PBXGroup;
+			children = (
+				C7B71EBA19584BEA0010D0AC /* CZAppDelegate.h */,
+				C7B71EBB19584BEA0010D0AC /* CZAppDelegate.m */,
+				C7B71EBD19584BEA0010D0AC /* Main.storyboard */,
+				C7B71EC019584BEA0010D0AC /* CZViewController.h */,
+				C7B71EC119584BEA0010D0AC /* CZViewController.m */,
+				C7B71EC319584BEA0010D0AC /* Images.xcassets */,
+				C7B71EB219584BEA0010D0AC /* Supporting Files */,
+			);
+			path = "01-蓝牙传输";
+			sourceTree = "<group>";
+		};
+		C7B71EB219584BEA0010D0AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B71EB319584BEA0010D0AC /* 01-蓝牙传输-Info.plist */,
+				C7B71EB419584BEA0010D0AC /* InfoPlist.strings */,
+				C7B71EB719584BEA0010D0AC /* main.m */,
+				C7B71EB919584BEA0010D0AC /* 01-蓝牙传输-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7B71ED019584BEA0010D0AC /* 01-蓝牙传输Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B71ED619584BEA0010D0AC /* _1_____Tests.m */,
+				C7B71ED119584BEA0010D0AC /* Supporting Files */,
+			);
+			path = "01-蓝牙传输Tests";
+			sourceTree = "<group>";
+		};
+		C7B71ED119584BEA0010D0AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B71ED219584BEA0010D0AC /* 01-蓝牙传输Tests-Info.plist */,
+				C7B71ED319584BEA0010D0AC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B71EA719584BEA0010D0AC /* 01-蓝牙传输 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B71EDA19584BEA0010D0AC /* Build configuration list for PBXNativeTarget "01-蓝牙传输" */;
+			buildPhases = (
+				C7B71EA419584BEA0010D0AC /* Sources */,
+				C7B71EA519584BEA0010D0AC /* Frameworks */,
+				C7B71EA619584BEA0010D0AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-蓝牙传输";
+			productName = "01-蓝牙传输";
+			productReference = C7B71EA819584BEA0010D0AC /* 01-蓝牙传输.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7B71EC819584BEA0010D0AC /* 01-蓝牙传输Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B71EDD19584BEA0010D0AC /* Build configuration list for PBXNativeTarget "01-蓝牙传输Tests" */;
+			buildPhases = (
+				C7B71EC519584BEA0010D0AC /* Sources */,
+				C7B71EC619584BEA0010D0AC /* Frameworks */,
+				C7B71EC719584BEA0010D0AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B71ECF19584BEA0010D0AC /* PBXTargetDependency */,
+			);
+			name = "01-蓝牙传输Tests";
+			productName = "01-蓝牙传输Tests";
+			productReference = C7B71EC919584BEA0010D0AC /* 01-蓝牙传输Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B71EA019584BEA0010D0AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					C7B71EC819584BEA0010D0AC = {
+						TestTargetID = C7B71EA719584BEA0010D0AC;
+					};
+				};
+			};
+			buildConfigurationList = C7B71EA319584BEA0010D0AC /* Build configuration list for PBXProject "01-蓝牙传输" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B71E9F19584BEA0010D0AC;
+			productRefGroup = C7B71EA919584BEA0010D0AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B71EA719584BEA0010D0AC /* 01-蓝牙传输 */,
+				C7B71EC819584BEA0010D0AC /* 01-蓝牙传输Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B71EA619584BEA0010D0AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B71EC419584BEA0010D0AC /* Images.xcassets in Resources */,
+				C7B71EB619584BEA0010D0AC /* InfoPlist.strings in Resources */,
+				C7B71EBF19584BEA0010D0AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B71EC719584BEA0010D0AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B71ED519584BEA0010D0AC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B71EA419584BEA0010D0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B71EB819584BEA0010D0AC /* main.m in Sources */,
+				C7B71EBC19584BEA0010D0AC /* CZAppDelegate.m in Sources */,
+				C7B71EC219584BEA0010D0AC /* CZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B71EC519584BEA0010D0AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B71ED719584BEA0010D0AC /* _1_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B71ECF19584BEA0010D0AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B71EA719584BEA0010D0AC /* 01-蓝牙传输 */;
+			targetProxy = C7B71ECE19584BEA0010D0AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7B71EB419584BEA0010D0AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B71EB519584BEA0010D0AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7B71EBD19584BEA0010D0AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B71EBE19584BEA0010D0AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C7B71ED319584BEA0010D0AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B71ED419584BEA0010D0AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B71ED819584BEA0010D0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7B71ED919584BEA0010D0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B71EDB19584BEA0010D0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-蓝牙传输/01-蓝牙传输-Prefix.pch";
+				INFOPLIST_FILE = "01-蓝牙传输/01-蓝牙传输-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7B71EDC19584BEA0010D0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-蓝牙传输/01-蓝牙传输-Prefix.pch";
+				INFOPLIST_FILE = "01-蓝牙传输/01-蓝牙传输-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C7B71EDE19584BEA0010D0AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01-蓝牙传输.app/01-蓝牙传输";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-蓝牙传输/01-蓝牙传输-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01-蓝牙传输Tests/01-蓝牙传输Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C7B71EDF19584BEA0010D0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01-蓝牙传输.app/01-蓝牙传输";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-蓝牙传输/01-蓝牙传输-Prefix.pch";
+				INFOPLIST_FILE = "01-蓝牙传输Tests/01-蓝牙传输Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B71EA319584BEA0010D0AC /* Build configuration list for PBXProject "01-蓝牙传输" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B71ED819584BEA0010D0AC /* Debug */,
+				C7B71ED919584BEA0010D0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B71EDA19584BEA0010D0AC /* Build configuration list for PBXNativeTarget "01-蓝牙传输" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B71EDB19584BEA0010D0AC /* Debug */,
+				C7B71EDC19584BEA0010D0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7B71EDD19584BEA0010D0AC /* Build configuration list for PBXNativeTarget "01-蓝牙传输Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B71EDE19584BEA0010D0AC /* Debug */,
+				C7B71EDF19584BEA0010D0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B71EA019584BEA0010D0AC /* Project object */;
+}
